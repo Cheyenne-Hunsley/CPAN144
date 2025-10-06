@@ -1,0 +1,29 @@
+//JSX Syntax
+
+export default function Home() {
+    return (
+        <div>
+            <p>Week 2</p>
+        </div>
+    );
+}
+
+//using const with click function
+
+const name = Cheyenne
+
+return (
+    <div onClick = {function name}>
+        <p> Hello my name is {name} </p>
+    </div>
+)
+
+//Javascript way of writing React
+
+import React from 'react'
+
+export defualt function Home() {
+    return React.createElement( "div", { id: "container"},
+        React.createElement( "p", null, "Week 2")
+        );
+}

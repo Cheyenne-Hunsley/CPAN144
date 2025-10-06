@@ -1,0 +1,2 @@
+What is State in React?
+state is how a component remmebers things. 

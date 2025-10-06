@@ -1,0 +1,9 @@
+Update Repo
+git add .                        # stage changes
+git commit -m "your message"     # commit with a message
+git push                         # send updates to GitHub
+
+Other Tips
+git pull orgin main             #pull changes from git to local
+git status                      #check git status
+git log --online                #check commit history

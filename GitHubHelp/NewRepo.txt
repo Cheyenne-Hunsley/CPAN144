@@ -1,0 +1,7 @@
+cd path/to/your/project             # go to your project folder
+git init                            # initialize git
+git add .                           # stage all files
+git commit -m "Initial commit"      # commit changes
+git branch -M main                  # set main branch
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main             # push code to GitHub
